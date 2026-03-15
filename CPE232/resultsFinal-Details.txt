@@ -1,0 +1,14 @@
+Best Parameters: {'estimator__n_estimators': 27, 'estimator__min_samples_split': 120, 'estimator__min_samples_leaf': 20, 'estimator__max_leaf_nodes': 23, 'estimator__max_features': 1.0, 'estimator__max_depth': 500}
+Best Score: ~0.04237
+Best Estimator: MultiOutputRegressor(estimator=RandomForestRegressor(max_depth=500,
+                                                     max_leaf_nodes=23,
+                                                     min_samples_leaf=20,
+                                                     min_samples_split=120,
+                                                     n_estimators=27,
+                                                     random_state=42))
+Regression Report:
+D2 Absolute Error Score: ~0.000
+D2 Pinball Score: ~0.000
+D2 Tweedie Score: ~-0.152
+Mean Absolute Percentage Error: ~0.132
+R-Squared: ~-0.152

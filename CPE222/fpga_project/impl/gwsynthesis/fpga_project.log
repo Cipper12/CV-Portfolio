@@ -1,0 +1,41 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'D:\f_university\classes\CPE222\M3\Project\20241214_speed_up\fpga_project\src\debounce.sv'
+WARN  (EX2478) : Non-net output port 'Q' cannot be initialized at declaration in SystemVerilog mode("D:\f_university\classes\CPE222\M3\Project\20241214_speed_up\fpga_project\src\debounce.sv":26)
+Analyzing Verilog file 'D:\f_university\classes\CPE222\M3\Project\20241214_speed_up\fpga_project\src\decoder.sv'
+Analyzing Verilog file 'D:\f_university\classes\CPE222\M3\Project\20241214_speed_up\fpga_project\src\display_signal.sv'
+Analyzing Verilog file 'D:\f_university\classes\CPE222\M3\Project\20241214_speed_up\fpga_project\src\hdmi.sv'
+Analyzing Verilog file 'D:\f_university\classes\CPE222\M3\Project\20241214_speed_up\fpga_project\src\rhythm_game.sv'
+Analyzing Verilog file 'D:\f_university\classes\CPE222\M3\Project\20241214_speed_up\fpga_project\src\top.sv'
+Analyzing Verilog file 'D:\f_university\classes\CPE222\M3\Project\20241214_speed_up\fpga_project\src\note_pattern_rom.sv'
+Compiling module 'top'("D:\f_university\classes\CPE222\M3\Project\20241214_speed_up\fpga_project\src\top.sv":1)
+Compiling module 'display_signal(H_RESOLUTION=1280,V_RESOLUTION=720,H_FRONT_PORCH=110,H_SYNC=40,H_BACK_PORCH=220,V_FRONT_PORCH=5,V_SYNC=5,V_BACK_PORCH=20,H_SYNC_POLARITY=1,V_SYNC_POLARITY=1)'("D:\f_university\classes\CPE222\M3\Project\20241214_speed_up\fpga_project\src\display_signal.sv":2)
+Compiling module 'rhythm_game'("D:\f_university\classes\CPE222\M3\Project\20241214_speed_up\fpga_project\src\rhythm_game.sv":1)
+Compiling module 'debounce'("D:\f_university\classes\CPE222\M3\Project\20241214_speed_up\fpga_project\src\debounce.sv":5)
+Compiling module 'clock_enable'("D:\f_university\classes\CPE222\M3\Project\20241214_speed_up\fpga_project\src\debounce.sv":17)
+WARN  (EX3791) : Expression size 28 truncated to fit in target size 27("D:\f_university\classes\CPE222\M3\Project\20241214_speed_up\fpga_project\src\debounce.sv":21)
+Compiling module 'my_dff_en'("D:\f_university\classes\CPE222\M3\Project\20241214_speed_up\fpga_project\src\debounce.sv":26)
+Compiling module 'note_pattern_rom'("D:\f_university\classes\CPE222\M3\Project\20241214_speed_up\fpga_project\src\note_pattern_rom.sv":1)
+Compiling module 'decoder'("D:\f_university\classes\CPE222\M3\Project\20241214_speed_up\fpga_project\src\decoder.sv":1)
+Compiling module 'hdmi'("D:\f_university\classes\CPE222\M3\Project\20241214_speed_up\fpga_project\src\hdmi.sv":46)
+Compiling module 'tmds_encoder'("D:\f_university\classes\CPE222\M3\Project\20241214_speed_up\fpga_project\src\hdmi.sv":5)
+NOTE  (EX0101) : Current top module is "top"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "D:\f_university\classes\CPE222\M3\Project\20241214_speed_up\fpga_project\impl\gwsynthesis\fpga_project.vg" completed
+[100%] Generate report file "D:\f_university\classes\CPE222\M3\Project\20241214_speed_up\fpga_project\impl\gwsynthesis\fpga_project_syn.rpt.html" completed
+GowinSynthesis finish

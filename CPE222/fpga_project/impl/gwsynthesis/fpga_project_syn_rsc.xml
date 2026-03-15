@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top" Lut="1" T_Register="638(0)" T_Alu="999(0)" T_Lut="2776(1)" T_MULTADDALU18X18="8(0)">
+    <SubModule name="inst_display_signal" Register="26" Alu="12" Lut="29" T_Register="26(26)" T_Alu="12(12)" T_Lut="29(29)"/>
+    <SubModule name="inst_rhythm_game" Register="520" Alu="908" Lut="1380" MULTADDALU18X18="8" T_Register="580(520)" T_Alu="960(908)" T_Lut="1416(1380)" T_MULTADDALU18X18="8(8)">
+        <SubModule name="inst_debounce_1" T_Register="30(0)" T_Alu="26(0)" T_Lut="14(0)">
+            <SubModule name="u1" Register="27" Alu="26" Lut="14" T_Register="27(27)" T_Alu="26(26)" T_Lut="14(14)"/>
+            <SubModule name="d0" Register="1" T_Register="1(1)"/>
+            <SubModule name="d1" Register="1" T_Register="1(1)"/>
+            <SubModule name="d2" Register="1" T_Register="1(1)"/>
+        </SubModule>
+        <SubModule name="inst_debounce_2" T_Register="30(0)" T_Alu="26(0)" T_Lut="14(0)">
+            <SubModule name="u1" Register="27" Alu="26" Lut="14" T_Register="27(27)" T_Alu="26(26)" T_Lut="14(14)"/>
+            <SubModule name="d0" Register="1" T_Register="1(1)"/>
+            <SubModule name="d1" Register="1" T_Register="1(1)"/>
+            <SubModule name="d2" Register="1" T_Register="1(1)"/>
+        </SubModule>
+        <SubModule name="inst_note_pattern_rom" Lut="2" T_Lut="2(2)"/>
+        <SubModule name="inst_decoder" Lut="6" T_Lut="6(6)"/>
+    </SubModule>
+    <SubModule name="inst_hdmi" T_Register="32(0)" T_Alu="27(0)" T_Lut="1330(0)">
+        <SubModule name="encode_b" Register="11" Alu="9" Lut="1303" T_Register="11(11)" T_Alu="9(9)" T_Lut="1303(1303)"/>
+        <SubModule name="encode_g" Register="11" Alu="9" Lut="19" T_Register="11(11)" T_Alu="9(9)" T_Lut="19(19)"/>
+        <SubModule name="encode_r" Register="10" Alu="9" Lut="8" T_Register="10(10)" T_Alu="9(9)" T_Lut="8(8)"/>
+    </SubModule>
+</Module>

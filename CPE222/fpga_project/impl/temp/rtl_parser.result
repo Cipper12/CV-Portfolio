@@ -1,0 +1,164 @@
+[
+ {
+  "InstFile" : "D:/f_university/classes/CPE222/M3/Project/20241214_speed_up/fpga_project/src/top.sv",
+  "InstLine" : 1,
+  "InstName" : "top",
+  "ModuleFile" : "D:/f_university/classes/CPE222/M3/Project/20241214_speed_up/fpga_project/src/top.sv",
+  "ModuleLine" : 1,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/f_university/classes/CPE222/M3/Project/20241214_speed_up/fpga_project/src/top.sv",
+    "InstLine" : 88,
+    "InstName" : "inst_display_signal",
+    "ModuleFile" : "D:/f_university/classes/CPE222/M3/Project/20241214_speed_up/fpga_project/src/display_signal.sv",
+    "ModuleLine" : 2,
+    "ModuleName" : "display_signal"
+   },
+   {
+    "InstFile" : "D:/f_university/classes/CPE222/M3/Project/20241214_speed_up/fpga_project/src/top.sv",
+    "InstLine" : 101,
+    "InstName" : "inst_rhythm_game",
+    "ModuleFile" : "D:/f_university/classes/CPE222/M3/Project/20241214_speed_up/fpga_project/src/rhythm_game.sv",
+    "ModuleLine" : 1,
+    "ModuleName" : "rhythm_game",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/f_university/classes/CPE222/M3/Project/20241214_speed_up/fpga_project/src/rhythm_game.sv",
+      "InstLine" : 56,
+      "InstName" : "inst_debounce_1",
+      "ModuleFile" : "D:/f_university/classes/CPE222/M3/Project/20241214_speed_up/fpga_project/src/debounce.sv",
+      "ModuleLine" : 5,
+      "ModuleName" : "debounce",
+      "SubInsts" : [
+       {
+        "InstFile" : "D:/f_university/classes/CPE222/M3/Project/20241214_speed_up/fpga_project/src/debounce.sv",
+        "InstLine" : 8,
+        "InstName" : "u1",
+        "ModuleFile" : "D:/f_university/classes/CPE222/M3/Project/20241214_speed_up/fpga_project/src/debounce.sv",
+        "ModuleLine" : 17,
+        "ModuleName" : "clock_enable"
+       },
+       {
+        "InstFile" : "D:/f_university/classes/CPE222/M3/Project/20241214_speed_up/fpga_project/src/debounce.sv",
+        "InstLine" : 9,
+        "InstName" : "d0",
+        "ModuleFile" : "D:/f_university/classes/CPE222/M3/Project/20241214_speed_up/fpga_project/src/debounce.sv",
+        "ModuleLine" : 26,
+        "ModuleName" : "my_dff_en"
+       },
+       {
+        "InstFile" : "D:/f_university/classes/CPE222/M3/Project/20241214_speed_up/fpga_project/src/debounce.sv",
+        "InstLine" : 11,
+        "InstName" : "d1",
+        "ModuleFile" : "D:/f_university/classes/CPE222/M3/Project/20241214_speed_up/fpga_project/src/debounce.sv",
+        "ModuleLine" : 26,
+        "ModuleName" : "my_dff_en"
+       },
+       {
+        "InstFile" : "D:/f_university/classes/CPE222/M3/Project/20241214_speed_up/fpga_project/src/debounce.sv",
+        "InstLine" : 12,
+        "InstName" : "d2",
+        "ModuleFile" : "D:/f_university/classes/CPE222/M3/Project/20241214_speed_up/fpga_project/src/debounce.sv",
+        "ModuleLine" : 26,
+        "ModuleName" : "my_dff_en"
+       }
+      ]
+     },
+     {
+      "InstFile" : "D:/f_university/classes/CPE222/M3/Project/20241214_speed_up/fpga_project/src/rhythm_game.sv",
+      "InstLine" : 57,
+      "InstName" : "inst_debounce_2",
+      "ModuleFile" : "D:/f_university/classes/CPE222/M3/Project/20241214_speed_up/fpga_project/src/debounce.sv",
+      "ModuleLine" : 5,
+      "ModuleName" : "debounce",
+      "SubInsts" : [
+       {
+        "InstFile" : "D:/f_university/classes/CPE222/M3/Project/20241214_speed_up/fpga_project/src/debounce.sv",
+        "InstLine" : 8,
+        "InstName" : "u1",
+        "ModuleFile" : "D:/f_university/classes/CPE222/M3/Project/20241214_speed_up/fpga_project/src/debounce.sv",
+        "ModuleLine" : 17,
+        "ModuleName" : "clock_enable"
+       },
+       {
+        "InstFile" : "D:/f_university/classes/CPE222/M3/Project/20241214_speed_up/fpga_project/src/debounce.sv",
+        "InstLine" : 9,
+        "InstName" : "d0",
+        "ModuleFile" : "D:/f_university/classes/CPE222/M3/Project/20241214_speed_up/fpga_project/src/debounce.sv",
+        "ModuleLine" : 26,
+        "ModuleName" : "my_dff_en"
+       },
+       {
+        "InstFile" : "D:/f_university/classes/CPE222/M3/Project/20241214_speed_up/fpga_project/src/debounce.sv",
+        "InstLine" : 11,
+        "InstName" : "d1",
+        "ModuleFile" : "D:/f_university/classes/CPE222/M3/Project/20241214_speed_up/fpga_project/src/debounce.sv",
+        "ModuleLine" : 26,
+        "ModuleName" : "my_dff_en"
+       },
+       {
+        "InstFile" : "D:/f_university/classes/CPE222/M3/Project/20241214_speed_up/fpga_project/src/debounce.sv",
+        "InstLine" : 12,
+        "InstName" : "d2",
+        "ModuleFile" : "D:/f_university/classes/CPE222/M3/Project/20241214_speed_up/fpga_project/src/debounce.sv",
+        "ModuleLine" : 26,
+        "ModuleName" : "my_dff_en"
+       }
+      ]
+     },
+     {
+      "InstFile" : "D:/f_university/classes/CPE222/M3/Project/20241214_speed_up/fpga_project/src/rhythm_game.sv",
+      "InstLine" : 72,
+      "InstName" : "inst_note_pattern_rom",
+      "ModuleFile" : "D:/f_university/classes/CPE222/M3/Project/20241214_speed_up/fpga_project/src/note_pattern_rom.sv",
+      "ModuleLine" : 1,
+      "ModuleName" : "note_pattern_rom"
+     },
+     {
+      "InstFile" : "D:/f_university/classes/CPE222/M3/Project/20241214_speed_up/fpga_project/src/rhythm_game.sv",
+      "InstLine" : 262,
+      "InstName" : "inst_decoder",
+      "ModuleFile" : "D:/f_university/classes/CPE222/M3/Project/20241214_speed_up/fpga_project/src/decoder.sv",
+      "ModuleLine" : 1,
+      "ModuleName" : "decoder"
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/f_university/classes/CPE222/M3/Project/20241214_speed_up/fpga_project/src/top.sv",
+    "InstLine" : 125,
+    "InstName" : "inst_hdmi",
+    "ModuleFile" : "D:/f_university/classes/CPE222/M3/Project/20241214_speed_up/fpga_project/src/hdmi.sv",
+    "ModuleLine" : 46,
+    "ModuleName" : "hdmi",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/f_university/classes/CPE222/M3/Project/20241214_speed_up/fpga_project/src/hdmi.sv",
+      "InstLine" : 59,
+      "InstName" : "encode_b",
+      "ModuleFile" : "D:/f_university/classes/CPE222/M3/Project/20241214_speed_up/fpga_project/src/hdmi.sv",
+      "ModuleLine" : 5,
+      "ModuleName" : "tmds_encoder"
+     },
+     {
+      "InstFile" : "D:/f_university/classes/CPE222/M3/Project/20241214_speed_up/fpga_project/src/hdmi.sv",
+      "InstLine" : 68,
+      "InstName" : "encode_g",
+      "ModuleFile" : "D:/f_university/classes/CPE222/M3/Project/20241214_speed_up/fpga_project/src/hdmi.sv",
+      "ModuleLine" : 5,
+      "ModuleName" : "tmds_encoder"
+     },
+     {
+      "InstFile" : "D:/f_university/classes/CPE222/M3/Project/20241214_speed_up/fpga_project/src/hdmi.sv",
+      "InstLine" : 77,
+      "InstName" : "encode_r",
+      "ModuleFile" : "D:/f_university/classes/CPE222/M3/Project/20241214_speed_up/fpga_project/src/hdmi.sv",
+      "ModuleLine" : 5,
+      "ModuleName" : "tmds_encoder"
+     }
+    ]
+   }
+  ]
+ }
+]

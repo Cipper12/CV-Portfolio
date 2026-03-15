@@ -1,0 +1,41 @@
+{
+ "Device" : "GW1NSR-4C",
+ "Files" : [
+  {
+   "Path" : "D:/f_university/classes/CPE222/M3/Project/20241214_speed_up/fpga_project/src/debounce.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/f_university/classes/CPE222/M3/Project/20241214_speed_up/fpga_project/src/decoder.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/f_university/classes/CPE222/M3/Project/20241214_speed_up/fpga_project/src/display_signal.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/f_university/classes/CPE222/M3/Project/20241214_speed_up/fpga_project/src/hdmi.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/f_university/classes/CPE222/M3/Project/20241214_speed_up/fpga_project/src/rhythm_game.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/f_university/classes/CPE222/M3/Project/20241214_speed_up/fpga_project/src/top.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/f_university/classes/CPE222/M3/Project/20241214_speed_up/fpga_project/src/note_pattern_rom.sv",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "D:/f_university/classes/CPE222/M3/Project/20241214_speed_up/fpga_project/impl/temp/rtl_parser.result",
+ "Top" : "",
+ "VerilogStd" : "sysv",
+ "VhdlStd" : "vhdl_93"
+}
