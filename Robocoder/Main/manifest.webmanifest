@@ -1,0 +1,12 @@
+{
+  "name": "RoboCoder",
+  "short_name": "RoboCoder",
+  "id": "com.cipper12.robocoder",
+  "description": "",
+  "orientation": "any",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "black",
+  "categories": ["games", "entertainment"],
+  "icons": []
+}

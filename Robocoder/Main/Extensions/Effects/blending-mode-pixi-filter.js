@@ -1,0 +1,2 @@
+var gdjs;(function(n){const l=GlobalPIXIModule.PIXI;n.PixiFiltersTools.registerFilterCreator("BlendingMode",{makePIXIFilter:function(t,e){return new l.filters.AlphaFilter},updatePreRender:function(t,e){},updateDoubleParameter:function(t,e,r){const a=t;e==="alpha"?a.alpha=r:e==="blendmode"&&(a.blendMode=r)},updateStringParameter:function(t,e,r){},updateBooleanParameter:function(t,e,r){}})})(gdjs||(gdjs={}));
+//# sourceMappingURL=blending-mode-pixi-filter.js.map
